@@ -116,7 +116,7 @@ export default function WeatherCard({weather} : Props) {
                 }}>
                     <Box sx={{
                         widows: { xs: 150, lg: 205 },
-                        height: { xs: 105, lg: 150 }
+                        height: { xs: 125, lg: 150 }
                     }}>
                         <img style={{
                             height: "100%",

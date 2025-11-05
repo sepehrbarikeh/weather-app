@@ -131,7 +131,8 @@ const Login = () => {
 
           </Box>
           <Box sx={{
-            width: "400px"
+            maxWidth: "400px",
+            width:"100%"
           }}>
             <Button
               onClick={handleLogin}
