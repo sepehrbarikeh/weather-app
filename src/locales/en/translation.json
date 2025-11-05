@@ -1,0 +1,19 @@
+{
+    "login_title": "Login",
+    "login_alert":"Please enter your name.",
+    "login_placeHolder": "Enter Your Name",
+    "login_button": "LOGIN",
+    "login": "Login",
+    "language": "Language",
+    "nav_title":" Weather Dashboard",
+    "location_selector":"Select Your Loaction",
+    "theme" : "Mode",
+    "exit" : "Exit",
+    "monthly_average" : "Average Monthly Temprature",
+    "low" : "Low",
+    "high" : "High",
+    "feels_like" : "Feels Like",
+    "forecast":"2 weeks Forecast",
+    "footer" :"All rights of this site are reserved for Nadin Sadr Aria Engineering Company.",
+    "contact_us" : "contact us :"
+}

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("./font/Vazir.woff2") format("woff2"),
+       url("./font/Vazir.woff") format("woff"),
+       url("./font/Vazir.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANSans";
+  src: url("./font/IranianSans.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Vazir-Bold";
+  src: url("./font/Vazir-Bold.woff2") format("woff2"),
+       url("./font/Vazir-Bold.woff") format("woff"),
+       url("./font/Vazir-Bold.ttf") format("truetype");
+  font-display: swap;
+}
