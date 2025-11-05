@@ -15,5 +15,6 @@
     "feels_like" : "Feels Like",
     "forecast":"2 weeks Forecast",
     "footer" :"All rights of this site are reserved for Nadin Sadr Aria Engineering Company.",
-    "contact_us" : "contact us :"
+    "contact_us" : "contact us :",
+    "loading_message":"Downloading Data..."
 }
