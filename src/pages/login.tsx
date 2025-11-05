@@ -140,7 +140,7 @@ const Login = () => {
               size="large"
               sx={{
                 py: 1.7,
-                color:theme.palette.custom.text,
+                color: "#F3F4F7",
                 borderRadius: .4,
                 backgroundColor: '#1e88e5',
                 textTransform: 'none',
