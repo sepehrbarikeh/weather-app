@@ -39,6 +39,8 @@ export default function Footer() {
                 p: 2,
                 background: `linear-gradient(90deg, ${theme.palette.custom.footerBgGradient[0]} 0%, ${theme.palette.custom.footerBgGradient[0]} 5%, ${theme.palette.custom.footerBgGradient[1]} 10%, ${theme.palette.custom.footerBgGradient[1]} 50%, ${theme.palette.custom.footerBgGradient[1]} 70%, ${theme.palette.custom.footerBgGradient[2]} 95%, ${theme.palette.custom.footerBgGradient[2]} 100%)`,
                 display: "flex",
+                flexDirection: { xs: "column", md: "row" },
+        gap: { xs: 2, md: 0 },
                 alignItems: "center",
                 justifyContent: "space-between"
             }}>
@@ -59,6 +61,8 @@ export default function Footer() {
                 </Box>
                 <Box sx={{
                     display: "flex",
+                    flexDirection: { xs: "column", md: "row" },
+                    gap: { xs: 2, md: 0 },
                     alignItems: "center",
                 }}>
                     <Box sx={{
