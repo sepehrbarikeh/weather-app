@@ -40,11 +40,12 @@ const cities: City[] = [
 ];
 
 interface Props {
+    city : string
     setSities: (city: string) => void
 }
 
 
-export default function Nav({ setSities }: Props) {
+export default function Nav({ setSities,city }: Props) {
 
     const navigate = useNavigate();
     const { toggleColorMode } = useColorMode();
@@ -137,14 +138,14 @@ export default function Nav({ setSities }: Props) {
                         <FormControl variant="outlined" sx={{ width: { xs: "100%", sm: 225 } }}>
                             <InputLabel
                                 id="city-label"
-                                sx={{ fontWeight: 500, color: "#8895A0", }}
+                                sx={{ fontWeight: 500, color: "#8895A0" }}
                             >
                                 {t("location_selector")}
                             </InputLabel>
                             <Select
                                 onChange={(e) => setSities(e.target.value)}
                                 labelId="city-label"
-                                defaultValue="Tehran"
+                                value={city}
                                 label="Search Your Location"
                                 sx={{
                                     borderRadius: .5,

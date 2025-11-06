@@ -58,7 +58,7 @@ const Dashboard = () => {
         ? <LoadingBox />
         : <>
           <Box sx={{ bgcolor: theme.palette.custom.mainBg, minHeight: "100vh" }}>
-            <Nav setSities={setSities} />
+            <Nav setSities={setSities} city={cities} />
             <Box
               sx={{
                 display: "grid",
